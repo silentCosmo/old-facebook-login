@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oldFB</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="img/favicon.png" type="image/png" rel="icon">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo"> <a class="tlogo" href="index.html">facebook</a></div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>
+                            <td><label class="login-label">Email or Mobile</label></td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="password"></td>
+                            <td>
+                                <!-- <input class="login-button" type="submit" value="Login"> -->
+                                <button class="login-button-2"><a href="pages/demoLogin.html"
+                                        class="upper-login">Login</a></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten" href="pages/find-account.html">Forgotten account?</a></td>
+                        </tr>
+                    </table>
+
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="main-body">
+            <div class="connect">
+                <p class="tagline">Facebook helps you connect and share with the people your life.</p>
+                <img src="img/facebook-what-is.png">
+            </div>
+
+            <div class="main">
+                <h1>Create an account</h1>
+                <h4>It's quick and easy.</h4>
+
+                <form class="create-ac" id="create-ac">
+                    <div class="name"> <input class="nm" type="text" placeholder="First Name" name="fname"> <input
+                            class="nm" type="name>" placeholder="Surname" name="sname"></div>
+                    <br>
+                    <div class="details"> <input class="cac" type="text" placeholder="Mobile number or Email adress"
+                            name="mobmail"> </div>
+                    <br>
+                    <input class="cac" type="password" placeholder="New password" name="password">
+                    <br><br>
+                    <input class="cac" type="password" placeholder="Retype password" name="repass">
+                    <p class="ach">Birthday</p>
+
+                    <div>
+                        <select class="dob" name="day">
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                        <select class="dob" name="month">
+                            <option value="">Month</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="March">Mar</option>
+                            <option value="April">Apr</option>
+                            <option value="May">May</option>
+                        </select>
+
+                        <select class="dob" name="year">
+                            <option value="">Year</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                        </select>
+
+                    </div>
+                    <p class="ach">Gender</p>
+                    <input type="radio" name="gen"><label>Female</label>
+                    <input type="radio" name="gen"><label>Male</label>
+                    <input type="radio" name="gen">
+                    <laber>Custom</laber>
+
+                    <p class="agr">By clicking sign up you are agree to our <strong>Terms, Data Policy</strong> and
+                        <strong>Cookie Policy</strong>
+                        you may receive SMS notifications from us and can opt out at anytime
+                    </p>
+                    <input class="sign-up" type="submit" value="Sign Up">
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/jquery-3.6.1.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/jquery.validate.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>-->
+
+</body>
+
+</html>
